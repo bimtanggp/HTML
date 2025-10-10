@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabel dan Formulir</title>
+    </head>
+    <body>
+        <h1>Tabel Siswa</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bintang Ganapril Putra</td>
+                    <td>XI GIM</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Formulir pendaftaran Siswa</h2>
+        <ul>
+            <form action="\submit-from"method="post"></form>
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Nama Lengkap"><br><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder=
+"contoh@domain.com"><br><br>
+
+            <label for="Pesan">Pesan Anda:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50" placeholder="Tulis pesan Anda di sini..."></textarea><br><br>
+
+            <label from="gender">Jenis Kelamin:</label><br>
+            <input type="radio" id="laki-laki" name="gender" value="laki-laki">
+            <label for="laki-laki">Laki-laki</label><br>
+            <input type="radio" id="perempuan" name="gender" value="perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <label for="minat">Minat:</label><br>
+            <input type="checkbox" id="coding" name="minat" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="desain" name="minat" value="desain">
+            <label for="desain">Desain</label><br>
+            <input type="checkbox" id="game" name="minat" value="game">
+            <label for="game">Game</label><br><br>
+
+            <label for="Prodi">program studi:</label><br>
+            <select id="prodi" name="prodi">
+                <option value="">--Pilih prodi--</option>
+                <option value="tkj">teknik komputer jaringan</option>
+                <option value="rpl">rekayasa perangkat lunak</option>
+                <option value="PGIM">Pengembangan GIM</option>
+            </select><br><br>
+
+            <input type="submit" value="Kirim">
+        </from>   
+    </body>
+</html>
+
